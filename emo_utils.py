@@ -5,6 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 
+#Utility Functions
+
 def read_glove_vecs(glove_file):
     with open(glove_file, 'r') as f:
         words = set()
